@@ -5,7 +5,7 @@ import pandas as pd
 import json
 
 # Cargar los datos (ajusta la ruta de tu archivo)
-data = pd.read_excel('C:\\Users\\magpa\\archivo.xlsx')
+data = pd.read_excel('archivo.xlsx')
 data['FECHA DEFUNCIÓN'] = pd.to_datetime(data['FECHA DEFUNCIÓN'], errors='coerce')
 
 # Filtrar datos para el año 2021 y 2020
